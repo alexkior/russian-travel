@@ -1,0 +1,13 @@
+.cover {
+    padding: 92px 48px 0px 48px;
+    height: auto;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+    .cover {
+        padding: 92px 0px 0px 0px;
+        height: auto;
+        overflow: hidden;
+    }
+}

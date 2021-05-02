@@ -1,0 +1,18 @@
+.place__paragraph {
+    align-self: start;
+    margin: inherit;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 163%;
+    
+    color: #fff;
+
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.place__paragraph:last-of-type {
+    grid-row: 3;
+}

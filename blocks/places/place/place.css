@@ -1,0 +1,20 @@
+.place {
+    padding-top: 92px;
+    display: grid;
+    grid-template-columns: minmax(152px, 460px) minmax(152px, 460px);
+    grid-template-rows: auto auto auto;
+    gap: 48px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .place {
+        padding: 92px 48px 0px 48px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .place {
+        padding: 92px 24px 0px 24px;
+        gap: 28px;
+    }
+}

@@ -1,0 +1,17 @@
+.intro__title {
+    margin: inherit;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 3.625rem;
+
+    color: #fff;
+
+    max-width: 690px;
+    width: 80%;
+}
+
+@media only screen and (max-width: 1024px) {
+
+}

@@ -1,0 +1,17 @@
+.header__lang-link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 1.5rem;
+    line-height: 1.75rem;
+
+    text-align: right;
+    text-decoration-line: underline;
+
+    color: #fff;
+
+    justify-self: end;
+}
+
+.header__lang-link:last-of-type {
+    text-decoration-line: none;
+}

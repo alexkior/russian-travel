@@ -1,0 +1,35 @@
+.lead__title {
+    padding-top: 54px;
+    margin: inherit;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 6.25rem;
+
+    text-align: center;
+
+    color: #fff;
+
+    max-width: 720px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .lead__title {
+        padding: 54px 48px 0px 48px;
+        margin: inherit;
+        
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 6rem;
+        line-height: 6.25rem;
+    
+        text-align: center;
+    
+        color: #fff;
+    
+        max-width: 720px;
+    }
+}
