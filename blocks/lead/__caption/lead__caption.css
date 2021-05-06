@@ -1,5 +1,7 @@
 .lead__caption {
-    font-family: Inter;
+    padding-top: 8px;
+    margin: initial;
+    font-family: "Inter", "Arial", "Sans-serif";
     font-style: normal;
     font-weight: normal;
     font-size: 0.625rem;
@@ -9,15 +11,13 @@
     text-transform: uppercase;
 
     color: #fff;
-
-    min-width: 984px;
-    width: 80%;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1024px) {
     .lead__caption {
-        padding: 0px 48px 0px 48px;
-        font-family: Inter;
+        padding-top: 8px;
+        font-family: "Inter", "Arial", "Sans-serif";
         font-style: normal;
         font-weight: normal;
         font-size: 0.625rem;
@@ -27,16 +27,14 @@
         text-transform: uppercase;
     
         color: #fff;
-    
-        min-width: 158px;
-        width: 90%;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .lead__caption {
-        padding: 0px 24px 0px 24px;
-        font-family: Inter;
+        padding-top: 8px;
+        padding-left: 48px;
+        font-family: "Inter", "Arial", "Sans-serif";
         font-style: normal;
         font-weight: normal;
         font-size: 0.625rem;
@@ -46,8 +44,5 @@
         text-transform: uppercase;
     
         color: #fff;
-    
-        min-width: 158px;
-        width: 94%;
     }
 }

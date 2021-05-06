@@ -1,35 +1,33 @@
-.intro__title {
+.place__title {
+    max-width: 460px;
     margin: inherit;
     font-family: "Inter", "Arial", "Sans-serif";
     font-style: normal;
     font-weight: 900;
-    font-size: 3.375rem;
-    line-height: 3.625rem;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
 
     color: #fff;
-
-    max-width: 690px;
-    width: 80%;
 }
 
-@media only screen and (max-width: 1024px) {
-    .intro__title {
+@media only screen and (max-width: 768px){
+    .place__title {
+        max-width: 460px;
         margin: inherit;
         font-family: "Inter", "Arial", "Sans-serif";
         font-style: normal;
         font-weight: 900;
-        font-size: 3.375rem;
-        line-height: 3.625rem;
+        font-size: 2.625rem;
+        line-height: 2.875rem;
     
         color: #fff;
-    
-        max-width: 690px;
-        width: 80%;
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .intro__title {
+@media only screen and (max-width: 320px){
+    .place__title {
+        padding: 0px 16px 0px 16px;
+        max-width: 460px;
         margin: inherit;
         font-family: "Inter", "Arial", "Sans-serif";
         font-style: normal;
@@ -38,8 +36,7 @@
         line-height: 2.188rem;
     
         color: #fff;
-    
-        max-width: 690px;
-        width: 80%;
+
+        order: 1;
     }
 }

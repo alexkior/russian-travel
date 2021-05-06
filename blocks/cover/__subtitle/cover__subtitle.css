@@ -1,7 +1,7 @@
 .cover__subtitle {
     margin: inherit;
     max-width: 360px;
-    font-family: Inter;
+    font-family: "Inter", "Arial", "Sans-serif";
     font-style: normal;
     font-weight: normal;
     font-size: 1.125rem;
@@ -12,4 +12,23 @@
     color: #FFFFFF;
 
     text-decoration: none;
+}
+
+@media only screen and (max-width: 320px) {
+    .cover__subtitle {
+        padding: 16px 16px 0px 16px;
+        margin: inherit;
+        max-width: 360px;
+        font-family: "Inter", "Arial", "Sans-serif";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.875rem;
+        line-height: 1rem;
+    
+        text-align: center;
+    
+        color: #FFFFFF;
+    
+        text-decoration: none;
+    }
 }

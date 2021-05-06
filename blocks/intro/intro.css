@@ -1,17 +1,16 @@
 .intro { 
-    padding-top: 92px;
-    width: 100%;
+    padding: 92px 148px 0px 148px;
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
 }
 
 @media only screen and (max-width: 1024px) {
     .intro { 
         padding: 92px 48px 0px 48px;
-
+    
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -22,7 +21,18 @@
 @media only screen and (max-width: 768px) {
     .intro { 
         padding: 92px 24px 0px 24px;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
 
+@media only screen and (max-width: 320px) {
+    .intro { 
+        padding: 64px 16px 0px 16px;
+    
         display: flex;
         flex-direction: column;
         align-items: flex-start;

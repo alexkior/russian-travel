@@ -11,3 +11,11 @@
         overflow: hidden;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    .cover {
+        padding: 66px 0px 0px 0px;
+        height: auto;
+        overflow: hidden;
+    }
+}

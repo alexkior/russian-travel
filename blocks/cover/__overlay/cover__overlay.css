@@ -13,3 +13,19 @@
 .cover__overlay:hover {
     background: rgb(42, 44, 47, 0.3);
 }
+
+@media only screen and (max-width: 320px) {
+    .cover__overlay {
+        background: rgb(42, 44, 47, 0);
+        width: 100%;
+        min-height: 200px;
+        max-height: 200px;
+        text-decoration: none;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

@@ -1,6 +1,6 @@
 .lead__subtitle {
     margin: inherit;
-    font-family: Inter;
+    font-family: "Inter", "Arial", "Sans-serif";
     font-style: normal;
     font-weight: normal;
     font-size: 1.875rem;
@@ -17,7 +17,7 @@
 @media only screen and (max-width: 1024px) {
     .lead__subtitle {
         margin: inherit;
-        font-family: Inter;
+        font-family: "Inter", "Arial", "Sans-serif";
         font-style: normal;
         font-weight: normal;
         font-size: 1.875rem;
@@ -28,6 +28,25 @@
         color: #fff;
     
         padding-top: 32px;
+        max-width: 640px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .lead__subtitle {
+        margin: inherit;
+        font-family: "Inter", "Arial", "Sans-serif";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    
+        text-align: center;
+    
+        color: #fff;
+    
+        padding: 16px 16px 0px 16px;
         max-width: 640px;
         width: 100%;
     }

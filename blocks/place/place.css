@@ -1,5 +1,6 @@
 .place {
-    padding-top: 92px;
+    padding: 92px 0px 0px 0px;
+    width: 100%;
     display: grid;
     grid-template-columns: minmax(152px, 460px) minmax(152px, 460px);
     grid-template-rows: auto auto auto;
@@ -16,5 +17,14 @@
     .place {
         padding: 92px 24px 0px 24px;
         gap: 28px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .place {
+        padding: 50px 0px 0px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
