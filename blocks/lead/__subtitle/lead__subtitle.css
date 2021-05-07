@@ -46,8 +46,8 @@
     
         color: #fff;
     
-        padding: 16px 16px 0px 16px;
-        max-width: 640px;
+        padding: 16px 0px 0px 0px;
+        max-width: 3200px;
         width: 100%;
     }
 }
