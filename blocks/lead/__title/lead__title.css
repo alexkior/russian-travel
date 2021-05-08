@@ -34,6 +34,25 @@
     }
 }
 
+@media only screen and (max-width: 765px) {
+    .lead__title {
+        padding: 54px 24px 0px 24px;
+        margin: inherit;
+        
+        font-family: "Inter", "Arial", "Sans-serif";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 6rem;
+        line-height: 6.25rem;
+    
+        text-align: center;
+    
+        color: #fff;
+    
+        max-width: 720px;
+    }
+}
+
 @media only screen and (max-width: 320px) {
     .lead__title {
         padding: 48px 16px 0px 16px;
