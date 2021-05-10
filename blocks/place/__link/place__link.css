@@ -10,6 +10,7 @@
   text-decoration-line: underline;
 
   color: #fff;
+  transition: 250ms;
 }
 
 .place__link:hover {
