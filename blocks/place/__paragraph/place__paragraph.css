@@ -5,22 +5,16 @@
   font-family: "Inter", "Arial", "Sans-serif";
   font-style: normal;
   font-weight: normal;
-  font-size: 1.125rem;
+  font-size: 18px;
   line-height: 163%;
 
   color: #fff;
-
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.place__paragraph:last-of-type {
-  grid-row: 3;
 }
 
 @media only screen and (max-width: 768px) {
   .place__paragraph {
     padding-bottom: 25px;
+    font-size: 16px;
   }
 }
 
