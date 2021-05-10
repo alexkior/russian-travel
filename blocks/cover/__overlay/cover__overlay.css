@@ -4,25 +4,14 @@
   height: auto;
   text-decoration: none;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 }
 
-.cover__overlay:before {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #2a2c2f;
-    z-index: 2;
-    opacity: 1;
-  }
-  
-  .cover__overlay:hover:before {
+.cover__overlay:hover .cover__shadower {
     opacity: 0.8;
-  }
-  
+}
 
 @media only screen and (max-width: 1024px) {
   .cover__overlay {

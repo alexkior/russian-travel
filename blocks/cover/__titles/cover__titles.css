@@ -1,9 +1,11 @@
 .cover__titles {
-    position: absolute;
-    z-index: 2;
+    margin: auto;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    grid-column: 1;
+    grid-row: 1;
 }
