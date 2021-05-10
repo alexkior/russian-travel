@@ -1,29 +1,22 @@
 .footer {
-    padding: 92px 30px 24px 48px;
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(5, auto) 1fr auto;
-    gap: 18px;
-    
+  padding: 92px 48px 24px 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 
-
 @media only screen and (max-width: 768px) {
-    .footer {
-        padding: 92px 24px 24px 24px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        
-    }
+  .footer {
+    padding: 92px 24px 24px 24px;
+    flex-wrap: wrap;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-    .footer {
-        padding: 64px 16px 24px 16px;
-        display: flex;
-        flex-direction: column;
-    }
+  .footer {
+    padding: 64px 16px 24px 16px;
+    flex-direction: column;
+  }
 }

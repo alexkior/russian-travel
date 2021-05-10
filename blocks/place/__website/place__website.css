@@ -1,12 +1,12 @@
 .place__website {
-    align-self: end;
-    grid-row: 1;
-    grid-column: 2;
+  align-self: end;
+  grid-row: 1;
+  grid-column: 2;
 }
 
 @media only screen and (max-width: 320px) {
-    .place__website {
-        padding: 0px 16px 0px 16px;
-        order: 2;
-    }
+  .place__website {
+    padding: 0px 16px 0px 16px;
+    order: 2;
+  }
 }

@@ -1,12 +1,13 @@
 .footer__copyright {
-    font-family: "Inter", "Arial", "Sans-serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 0.875rem;
-    line-height: 1rem;
+  margin: initial;
+  font-family: "Inter", "Arial", "Sans-serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1rem;
 
-    text-align: right;
-    align-self: baseline;
+  text-align: right;
+  align-self: baseline;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }

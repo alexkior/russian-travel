@@ -1,51 +1,21 @@
 .intro__text {
-    margin: inherit;
-    font-family: "Inter", "Arial", "Sans-serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 163%;
+  margin: inherit;
+  font-family: "Inter", "Arial", "Sans-serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 163%;
 
-    color: #fff;
+  color: #fff;
 
-    padding-top: 40px;
+  padding-top: 40px;
 
-    max-width: 690px;
-    width: 80%;
-}
-
-@media only screen and (max-width: 1024px) {
-    .intro__text {
-        margin: inherit;
-        font-family: "Inter", "Arial", "Sans-serif";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 163%;
-    
-        color: #fff;
-    
-        padding-top: 40px;
-    
-        max-width: 690px;
-        width: 80%;
-    }
+  max-width: 690px;
+  width: 80%;
 }
 
 @media only screen and (max-width: 320px) {
-    .intro__text {
-        margin: inherit;
-        font-family: "Inter", "Arial", "Sans-serif";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 163%;
-    
-        color: #fff;
-    
-        padding-top: 40px;
-    
-        max-width: 690px;
-        width: 100%;
-    }
+  .intro__text {
+    width: 100%;
+  }
 }

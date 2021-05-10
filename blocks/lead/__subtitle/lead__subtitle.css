@@ -1,53 +1,33 @@
 .lead__subtitle {
-    margin: inherit;
-    font-family: "Inter", "Arial", "Sans-serif";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+  margin: inherit;
+  font-family: "Inter", "Arial", "Sans-serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 
-    text-align: center;
+  text-align: center;
 
-    color: #fff;
+  color: #fff;
 
-    padding-top: 32px;
-    max-width: 640px;
+  padding-top: 32px;
+  max-width: 640px;
 }
 
 @media only screen and (max-width: 1024px) {
-    .lead__subtitle {
-        margin: inherit;
-        font-family: "Inter", "Arial", "Sans-serif";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.875rem;
-        line-height: 2.25rem;
-    
-        text-align: center;
-    
-        color: #fff;
-    
-        padding-top: 32px;
-        max-width: 640px;
-        width: 100%;
-    }
+  .lead__subtitle {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    padding-top: 32px;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-    .lead__subtitle {
-        margin: inherit;
-        font-family: "Inter", "Arial", "Sans-serif";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1rem;
-        line-height: 1.25rem;
-    
-        text-align: center;
-    
-        color: #fff;
-    
-        padding: 16px 0px 0px 0px;
-        max-width: 3200px;
-        width: 100%;
-    }
+  .lead__subtitle {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    padding: 16px 0px 0px 0px;
+    max-width: 320px;
+  }
 }

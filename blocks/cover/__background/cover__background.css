@@ -1,14 +1,4 @@
 .cover__background {
-    width: 100%;
-    height: 100%;
-    background: url(../../../images/cover-trains.jpg) no-repeat center / cover;
-    text-decoration: none;
-}
-
-@media only screen and (max-width: 320px) {
-    .cover__background {
-        width: 100%;
-        background: url(../../../images/cover-trains.jpg) no-repeat center / cover;
-        text-decoration: none;
-    }
+  width: 100%;
+  height: 100%;
 }
