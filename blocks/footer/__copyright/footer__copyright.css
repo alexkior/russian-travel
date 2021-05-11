@@ -1,13 +1,28 @@
 .footer__copyright {
   margin: initial;
+  height: 18px;
   font-family: "Inter", "Arial", "Sans-serif";
   font-style: normal;
   font-weight: normal;
-  font-size: 0.875rem;
-  line-height: 1rem;
+  font-size: 14px;
+  line-height: 16px;
 
   text-align: right;
   align-self: baseline;
 
-  color: #ffffff;
+  color: #fff;
+}
+
+@media only screen and (max-width: 700px) {
+  .footer__copyright {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .footer__copyright {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }

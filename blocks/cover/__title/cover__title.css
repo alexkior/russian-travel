@@ -19,7 +19,6 @@
     padding: 0px 16px 0px 16px;
     font-size: 40px;
     line-height: 43px;
-    white-space: wrap;
     max-width: 300px;
   }
 }
@@ -27,9 +26,7 @@
 @media only screen and (max-width: 320px) {
   .cover__title {
     max-width: 250px;
-    padding: 0px 16px 0px 16px;
     font-size: 32px;
     line-height: 35px;
-    white-space: wrap;
   }
 }

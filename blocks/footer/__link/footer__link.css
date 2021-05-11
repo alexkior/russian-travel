@@ -2,8 +2,8 @@
   font-family: "Inter", "Arial", "Sans-serif";
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.125rem;
+  font-size: 16px;
+  line-height: 18px;
   text-decoration: none;
   align-self: baseline;
   list-style: none;
@@ -12,7 +12,14 @@
   transition: 250ms;
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 700px) {
+  .footer__link {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
   .footer__link {
     font-size: 24px;
     line-height: 24px;

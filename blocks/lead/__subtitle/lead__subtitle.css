@@ -16,9 +16,6 @@
 
 @media only screen and (max-width: 1024px) {
   .lead__subtitle {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-    padding-top: 32px;
     width: 100%;
   }
 }

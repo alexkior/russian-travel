@@ -21,19 +21,19 @@
   }
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 800px) {
   .lead__title {
-    padding: 54px 24px 0px 24px;
+    padding: 54px 32px 0px 32px;
   }
 }
 
-@media only screen and (max-width: 750px) {
-    .lead__title {
-      padding: 54px 24px 0px 24px;
-      font-size: 64px;
-      line-height: 70px;
-    }
+@media only screen and (max-width: 765px) {
+  .lead__title {
+    padding: 54px 24px 0px 24px;
+    font-size: 64px;
+    line-height: 70px;
   }
+}
 
 @media only screen and (max-width: 560px) {
   .lead__title {

@@ -12,10 +12,9 @@
   width: 80%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   .intro__title {
-    font-size: 3.375rem;
-    line-height: 3.625rem;
+    width: 100%;
   }
 }
 
