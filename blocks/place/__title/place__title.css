@@ -12,8 +12,9 @@
 
 @media only screen and (max-width: 768px) {
   .place__title {
-    font-size: 2.625rem;
-    line-height: 2.875rem;
+    max-width: 320px;
+    font-size: 42px;
+    line-height: 46px;
   }
 }
 

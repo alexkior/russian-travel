@@ -1,6 +1,5 @@
 .footer__copyright {
   margin: initial;
-  height: 18px;
   font-family: "Inter", "Arial", "Sans-serif";
   font-style: normal;
   font-weight: normal;
@@ -23,6 +22,5 @@
 @media only screen and (max-width: 550px) {
   .footer__copyright {
     font-size: 14px;
-    line-height: 14px;
   }
 }
